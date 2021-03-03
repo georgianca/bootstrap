@@ -1,6 +1,6 @@
 body {
   font-family: "Raleway", sans-serif;
-  background: #c204b5; }
+  background: white; }
 
 .navbar {
   font-weight: 100;
@@ -19,11 +19,12 @@ body {
 
 #showcase {
   background: url("../images/cool.jpg") bottom center/cover no-repeat;
-  min-height: 750px; }
+  min-height: 750px;
+  position: relative; }
   #showcase #header {
     z-index: 2; }
   #showcase #overlay {
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.3);
     position: absolute;
     top: 0;
     left: 0;
@@ -36,6 +37,18 @@ body {
   #showcase #book {
     font-size: 1.5rem;
     border-radius: 2rem; }
+  #showcase h1 {
+    font-family: "Questrial", sans-serif;
+    line-height: 1; }
+  #showcase #book {
+    font-size: 1.5rem;
+    border-radius: 2rem; }
+
+.quotes i {
+  opacity: 0.3; }
+
+#footer {
+  font-weight: 100; }
 
 @media (max-width: 768px) {
   .navbar {
