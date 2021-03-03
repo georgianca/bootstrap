@@ -88,7 +88,9 @@
     "type": "opencollective",
     "url": "https://opencollective.com/bootstrap"
   },
-  "dependencies": {},
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
   "peerDependencies": {
     "jquery": "1.9.1 - 3",
     "popper.js": "^1.16.1"
@@ -102,7 +104,7 @@
     "@rollup/plugin-node-resolve": "^11.0.1",
     "autoprefixer": "^10.2.1",
     "babel-plugin-istanbul": "^6.0.0",
-    "bundlewatch": "^0.3.1",
+    "bundlewatch": "^0.3.2",
     "clean-css-cli": "^4.3.0",
     "cross-env": "^7.0.3",
     "eslint": "^7.17.0",
@@ -123,7 +125,7 @@
     "karma-firefox-launcher": "^2.1.0",
     "karma-qunit": "^4.1.1",
     "karma-sinon": "^1.0.5",
-    "linkinator": "^2.11.2",
+    "linkinator": "^2.13.6",
     "lockfile-lint": "^4.3.7",
     "node-sass": "^5.0.0",
     "nodemon": "^2.0.7",
